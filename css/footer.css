@@ -1,0 +1,41 @@
+/* Footer */
+/*===================================================*/
+footer {
+    /* background-color: rgb(44, 43, 43); */
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items:flex-end;
+}
+
+.footer_image {
+    background-image: url(../images/wave-bkgd.jpg);                    
+     background-repeat: no-repeat;    
+     background-position: center;
+     background-size: cover, 20%;     
+     height: 100px;
+     height: 700px;
+     position: relative;  
+}
+
+
+.social_links {
+    align-content:flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: blueviolet;
+}
+
+.testing_font_awesome{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#facebook {
+    color: aquamarine;
+    
+}
