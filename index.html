@@ -3,29 +3,35 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Aloha Apparel</title>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aloha Apparel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendor/css/flickity.css" > 
+    <link rel="stylesheet" href="css/carousel.css" >
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/suscribe.css" />
+    <link rel="stylesheet" href="css/footer1.css" />
     <link rel="stylesheet" href="css/media-queries.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
+    <!-- JAVASCRIPT -->
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-
-    <script src="main.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous"> -->          
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header>   
         <div class="header_div">
             <img class="aloha_logo" src="./images/aloha-logo.svg" alt="Aloha Logo">
             <nav class="header_navigation">
@@ -89,79 +95,84 @@
         </div>
     </section>
 
-    <section class="gallery js-flickity">
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
+    <!-- Flickity Carousel -->
+    <section>
+        <div class="carousel" data-flickity='{ "contain": true }'>
+            <div class="carousel-cell img1">
+                <span class="top">dresses</span>
+                <span class="center">checked stretch dress</span>
+                <span class="bottom">$129.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="carousel-cell img2">
+                <span class="top">bags</span>
+                <span class="center">blue hipster backpack</span>
+                <span class="bottom">$69.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="carousel-cell img3">
+                <span class="top">demin</span>
+                <span class="center">demin overall shorts</span>
+                <span class="bottom">$89.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="carousel-cell img4">
+                <span class="top">dresses</span>
+                <span class="center">pink dotted dress</span>
+                <span class="bottom">$99.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="carousel-cell img5">
+                <span class="top">dresses</span>
+                <span class="center">stretch knit dress</span>
+                <span class="bottom">$169.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="carousel-cell img6">
+                <span class="top">shirt</span>
+                <span class="center">cotton blue shirt</span>
+                <span class="bottom">$89.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="carousel-cell img7">
+                <span class="top">dresses</span>
+                <span class="center">blue silk dress</span>
+                <span class="bottom">$175.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+            <div class="carousel-cell img8">
+                <span class="top">shirt</span>
+                <span class="center">cotton yellow tshirt</span>
+                <span class="bottom">$100.00</span>
+                <button class="btn">Add to Cart</button>
+            </div>
+        </div>
     </section>
 
-    <!-- <section>
+    <!-- Updates Suscribes -->
+    <section class="updates_suscribes">
+        <div class="background_img">
+            <div class="inner">
+                <p class="updates_signup">Sign-up for <span>Updates<span></p>
 
-        <p>Most-Loved <b>Products</b></p>
+                <p class="updates_p1">Stay updated on our lastest product releases, be first to find about <br>
+                    upcoming sales, and get free styles tips from our blog. Unsuscribe at any time.</p>
 
-        <table>
-            <tr>
-                <td>
-                    <img src="./images/checked-stretch-dress.jpg" alt="Checked Stretch Dress">
-                    <p>Checked Stretch Dress</p>
-                    <a href="./articles/checked-stretch-dress.html">Checked Stretch Dress</a>
-                    <p>$129.00</p>
-                    <button type="button">Add to Cart</button>
-                </td>
-
-
-                <td>
-                    <img src="./images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack">
-                    <p>Dresses</p>
-                    <a href="./articles/blue-hipster-backpack.html">Blue Hipster Backpack</a>
-                    <p>$69.00</p>
-                    <button type="button">Add to Cart</button>
-                </td>
-
-                <td>
-                    <img src="./images/demin-overall-shorts.jpg" alt="Demin Overall Shorts">
-                    <p>Shirts</p>
-                    <a href="./articles/demin-overall-shorts.html">Demin Overall Shorts</a>
-                    <p>$89.00</p>
-                    <button type="button">Add to Cart</button>
-                </td>
-
-                <td>
-                    <img src="./images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
-                    <p>Dresses</p>
-                    <a href="./articles/pink-dotted-dress.html">Pink Dotted Dress</a>
-                    <p>$169.00</p>
-                    <button type="button">Add to Cart</button>
-                </td>
-
-
-            </tr>
-        </table>
-
-    </section> -->
-
-    <footer>
-
-        <section class="footer_image">
-
-        </section>
-
-        <div class="footer_updates_suscribes">
-            <!-- Background image made with CSS src="./images/wave-bkgd.jpg" -->
-            <p>Sign-up for <b>Updates</b></p>
-
-            <p>Stay updated on our lastest product releases, be first to find about <br>
-                upcoming sales, and get free styles tips from our blog. Unsuscribe at any time.</p>
-
-            <input type="email" placeholder="Your Email">
-            <input type="submit">
+                <input class="suscribes" type="email" placeholder="Your Email">
+                <input class="suscribes" type="submit">
+            </div>
         </div>
+    </section>
 
-        <div>
+    
+
+        <!-- <section class="footer_image">
+
+        </section> -->
+
+
+    <!-- <footer>    
+        <div class="footer_left">
             <p>2016 Aloha Apparel Co.<br>
                 Powered by HTML and CSS</p>
 
@@ -169,18 +180,59 @@
 
             <p>1490 w Brodway<br>
                 Vancouver, BC, Canada</p>
+        </div>            
 
-
+        <div class="footer_right">
             <ul class="social_links">
-                <li><i class="fab fa-facebook-f" id="facebook"></i>Facebook</li>
+                <li><i class="fab fa-facebook-f"></i>Facebook</li>
                 <li><i class="fab fa-twitter"></i>Twitter</li>
                 <li><i class="fab fa-instagram"></i>Instagram</li>
             </ul>
         </div>
+    </footer> -->
 
-
+    <footer>
+        <div class="footer-limiter">
+            <ul class="footer-right">
+                <li href="#">
+                    <i class="fa fa-facebook-f"></i><i class="social_label">Facebook</i>
+                </li>            
+            
+                <li href="#">
+                    <i class="fa fa-twitter"></i><i class="social_label">twitter</i>
+                </li>
+            
+                <li href="#">
+                    <i class="fa fa-instagram"></i><i class="social_label">Instagram</i>
+                </li>
+            
+                <li href="#">
+                    <i class="fa fa-pinterest"></i><i class="social_label">Pinteres</i>
+                </li>
+            
+                <li href="#">
+                    <i class="fa fa-google-plus">+</i><i class="social_label">Google</i>
+                </li>
+            </ul>
+    
+            <div class="footer-left">
+                <p class="footer-links">2016 Aloha Apparel Co.<br>
+                    Powered by HTML and CSS</p>
+                <p>604-604-6040. <u>info@alohaapparel.com</u></p>
+                <p>1490 w Brodway<br>
+                    Vancouver, BC, Canada</p>
+            </div>
+        </div>
     </footer>
 
+    
+    <!-- JQuery by my project: -->
+    <script src="vendor/js/jquery-3.3.1.min.js"></script>
+    
+    <!-- Include javascript main for project-1 -->
+    <script src="js/javascript.js"></script>
+    
+    <script src="vendor/js/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

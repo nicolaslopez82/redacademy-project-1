@@ -16,17 +16,21 @@
 }
 
 .header_navigation > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 50px;
 }
 
 .header_navigation > ul > li > a{
+    height: 100%;
     margin: 30px;
     padding: 10px;
-    height: 60%;
     color: coral;
     font-family: 'Raleway';      
     text-transform: uppercase;
     text-align: center;
     text-decoration: none; 
     font-weight: bold;    
+    
 }

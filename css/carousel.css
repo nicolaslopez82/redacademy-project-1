@@ -1,0 +1,159 @@
+/* external css: flickity.css */
+/* 
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; } */
+
+.carousel {
+  background: white;
+  height: 550px;
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 500px;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+}
+
+.img1{
+  background: url("../images/checked-stretch-dress.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+    position: relative;
+}
+
+.img2{
+  background: url("../images/blue-hipster-backpack.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.img3{
+  background: url("../images/demin-overall-shorts.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.img4{
+  background: url("../images/pink-dotted-dress.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.img5{
+  background: url("../images/stretch-knit-dress.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.img6{
+  background: url("../images/cotton-blue-shirt.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.img7{
+  background: url("../images/blue-silk-dress.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.img8{
+  background: url("../images/cotton-yellow-tshirt.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.top{
+  font-family: 'Raleway';      
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none; 
+  font-weight: bold; 
+  color: grey;
+  font-size: 15px;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center{
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-style: 'italic';
+  text-transform: capitalize;
+  color: rgb(231, 80, 80);
+  font-size: 18px;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom{
+  font-family: 'Raleway';      
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none; 
+  font-weight: bold; 
+  color: grey;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #555;
+}
