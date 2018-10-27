@@ -1,104 +1,43 @@
-/* .updates_suscribes{
-    background-color: red;
-    display: inline-block; */
-    /* flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center; */
-    /* height: 500px;
-    width: 100%;
-}
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+                                     rgba(0, 0, 0, 0.1)), 
+                    url("../images/wave-bkgd.jpg");
 
-.background_img {
-    background: url("../images/wave-bkgd.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    position: relative;
-}
+  /* Set a specific height */
+  height: 600px;
 
-.updates .suscribes{
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    position: relative;
-} */
-
-img {
-    /* unused but necessary for inner images */
-    max-width: 100%;
-    max-height: 50vh;
-  } 
-  
-  .updates_suscribes {
-    /* layout */
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    -webkit-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-  
-  .background_img {
-      /* Background image */
-    background-color: grey;
-    background-image: url(../images/wave-bkgd.jpg);
-    /* layout */
-    height: 520px;
-    width: 100%;
-    /* flex: 1; */
-    display: flex;
-    /* content styling OPTIONAL*/
-    align-items: center;
-    justify-content: center;
-    padding: 10vh;
-    padding-top: 10vh;
-    /* background styling */
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .inner {
-    color: white;
-    font-size: 1.3em;
-  }
-
-  /*=====================================*/
-
-  .updates_signup{    
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    font-family: 'Playfair Display';
-    font-weight: normal;
-    font-style: italic;
-    font-size: 50px;    
-    margin: 0.5%;
-    padding: 10px;    
-}
-
-.updates span{
-    font-weight: bold;
-    margin: 1%;
-}
-
-.updates b{
-    font-family: 'Playfair Display';
-    font-weight: bold;
-    margin: 10px;
-}
-
-.updates_p1{        
-  font-family: 'Raleway';  
-  font-style: normal;
-  font-size: 20px;
-  margin: 10px;
-}
-
-.updates_p2{
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  left: 60px;
-  margin: 20px;
 }
-  
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text .signup_styles{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-style: italic;
+  font-size: 50px;    
+  margin: 0.5%;
+  padding: 10px;
+}
+
+.hero-text .signup_styles span{
+  font-weight: bold;
+  margin: 1%;
+}
