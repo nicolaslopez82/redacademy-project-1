@@ -39,7 +39,10 @@
                     <li><a href="index.html#subscribes">Updates</a></li>
                 </ul>
             </nav>
-            <img class="cart_icon" src="./images/cart-icon.svg" alt="Cart Icon">
+            <div class="shoppingbasket">
+                <img class="cart_icon" src="./images/cart-icon.svg" alt="Cart Icon" id="cart_icon_count">
+            </div>
+            
         </div>
     </header>
 
@@ -99,49 +102,49 @@
                 <span class="top">dresses</span>
                 <span class="center">checked stretch dress</span>
                 <span class="bottom">$129.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_1">Add to Cart</button>
             </div>
             <div class="carousel-cell img2">
                 <span class="top">bags</span>
                 <span class="center">blue hipster backpack</span>
                 <span class="bottom">$69.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_2">Add to Cart</button>
             </div>
             <div class="carousel-cell img3">
                 <span class="top">demin</span>
                 <span class="center">demin overall shorts</span>
                 <span class="bottom">$89.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_3">Add to Cart</button>
             </div>
             <div class="carousel-cell img4">
                 <span class="top">dresses</span>
                 <span class="center">pink dotted dress</span>
                 <span class="bottom">$99.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_4">Add to Cart</button>
             </div>
             <div class="carousel-cell img5">
                 <span class="top">dresses</span>
                 <span class="center">stretch knit dress</span>
                 <span class="bottom">$169.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_5">Add to Cart</button>
             </div>
             <div class="carousel-cell img6">
                 <span class="top">shirt</span>
                 <span class="center">cotton blue shirt</span>
                 <span class="bottom">$89.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_6">Add to Cart</button>
             </div>
             <div class="carousel-cell img7">
                 <span class="top">dresses</span>
                 <span class="center">blue silk dress</span>
                 <span class="bottom">$175.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_7">Add to Cart</button>
             </div>
             <div class="carousel-cell img8">
                 <span class="top">shirt</span>
                 <span class="center">cotton yellow tshirt</span>
                 <span class="bottom">$100.00</span>
-                <button class="btn">Add to Cart</button>
+                <button class="btn" id="addToCart_8">Add to Cart</button>
             </div>
         </div>
     </section>
@@ -156,10 +159,10 @@
                         <p class="stay_updated_2nd">upcoming sales, and get free styles tips from our blog. Unsuscribe at any time.</p>
                     </div>    
                     <div class="container">                    
-                        <form action="/action_page.php">
+                        <form action="">
                             <div class="embed-submit-field">
-                                <input type="text" placeholder="Your Email"/>
-                                <button type="submit">Subscribe</button>
+                                <input type="text" placeholder="Your Email" id="txtEmail"/>
+                                <button type="submit" id="buttonSubscribe">Subscribe</button>
                             </div>
                         </form>
                     </div>

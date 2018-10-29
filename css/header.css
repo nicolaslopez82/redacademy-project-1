@@ -26,7 +26,7 @@
     height: 100%;
     margin: 30px;
     padding: 10px;
-    color: coral;
+    color: #e2574c;
     font-family: 'Raleway';      
     text-transform: uppercase;
     text-align: center;
@@ -34,3 +34,24 @@
     font-weight: bold;    
     
 }
+
+.shoppingbasket {
+    width:40px;
+    background-color:white;
+    position:relative;
+    font-family: 'Raleway'; 
+  }
+
+.basketitems {
+    color:#fff;
+    font-size:70%;
+    background-color:#e74c3c;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-90%);
+    -moz-transform:translate(-50%,-90%);
+    transform:translate(-50%,-90%);
+    padding:0 12%;
+    border-radius:1000px;
+  }

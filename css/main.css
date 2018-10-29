@@ -169,6 +169,7 @@
     font-family: 'Raleway';
     text-transform: uppercase;
     color: white;
+    box-shadow:grey;
     font-size: 25px;
     text-decoration: none; 
 }
