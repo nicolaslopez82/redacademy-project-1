@@ -31,6 +31,7 @@
 - JQuery functions that increment on icon cart, the number of items added to the cart.
 ----
 # Folder structure:
+![Project Structure](https://github.com/nicolaslopez82/redacademy-project-1/blob/master/images/project_structure.png "Project Structure")
 ----
 # Versioning 
 - 1.0
