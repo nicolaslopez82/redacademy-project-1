@@ -2,15 +2,13 @@ footer{
     display: flex;
     justify-content: space-around;
     height: 100%;
-    /* flex: 0 0 auto; */
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
-    /* height: 300px; */
-    /* text-align: left; */
-    /* font: normal 16px sans-serif; */
+    width: 100%;    
     padding: 50px 50px;
 }
+
+/** ======= Address ==============*/
 
 footer .footer-left{  
     justify-content: center;
@@ -50,12 +48,7 @@ footer p.footer-links_address{
     color: #8f9296;
 }
 
-/** =============================================================*/
-
-/* @import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
- */
-
+/** ======= Social Links ==============*/
 
 footer .footer-right {
     justify-content: center;
@@ -75,8 +68,7 @@ ul.social-icons {
     margin: 10px;    
 }
 
-.social-icons li {
-    /* vertical-align: top; */
+.social-icons li {    
     display: block;
     height: 30px;
     color: #fff;

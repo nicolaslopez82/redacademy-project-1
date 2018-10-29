@@ -22,7 +22,7 @@
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="vendor/css/font-awesome.min.css"> -->
 
 </head>
 
@@ -33,10 +33,10 @@
             <img class="aloha_logo" src="./images/aloha-logo.svg" alt="Aloha Logo">
             <nav class="header_navigation">
                 <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="featured.html">Featured</a></li>
-                    <li><a href="updates.html">Updates</a></li>
+                    <li><a href="index.html#footer">About</a></li>
+                    <li><a href="index.html#shop">Shop</a></li>
+                    <li><a href="index.html#features">Featured</a></li>
+                    <li><a href="index.html#subscribes">Updates</a></li>
                 </ul>
             </nav>
             <img class="cart_icon" src="./images/cart-icon.svg" alt="Cart Icon">
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="product_container">
+    <section class="product_container" id="shop">
         <div class="product mens">
             <a class="product_name" target="_blank" href="mens.html">men&apos;s</a>
         </div>
@@ -93,7 +93,7 @@
     </section>
 
     <!-- Flickity Carousel -->
-    <section>
+    <section id="features">
         <div class="carousel" data-flickity='{ "contain": true }'>
             <div class="carousel-cell img1">
                 <span class="top">dresses</span>
@@ -147,7 +147,7 @@
     </section>
 
     <!-- Updates Suscribes -->
-    <section class="updates_suscribes">        
+    <section class="updates_suscribes" id="subscribes">        
             <div class="hero-image">
                 <div class="hero-text">
                     <p class="signup_styles">Sign-up for<span> Updates<span></p>
@@ -167,7 +167,7 @@
             </div>        
     </section>
 
-    <footer>
+    <footer id="footer">
     
         <div class="footer-left">
             <p class="footer-links">&#169 2016 Aloha Apparel Co.<br> Powered by HTML and CSS</p>
