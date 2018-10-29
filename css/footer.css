@@ -1,52 +1,27 @@
 footer{
-    display: block;
-    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    /* flex: 0 0 auto; */
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
-    height: 150px;
-    text-align: left;
-    font: normal 16px sans-serif;
-    padding: 50px 20px;
+    /* height: 300px; */
+    /* text-align: left; */
+    /* font: normal 16px sans-serif; */
+    padding: 50px 50px;
 }
 
-footer .footer-limiter {
-    max-width: 880px;
-    margin: 0 auto;
-    text-align: left;
-    align-content:flex-start;
-}
-
-footer .footer-right {
-    float: right;
-    margin-top: 6px;
-    max-width: 180px;
-}
-
-footer .footer-right li i {
-    display: flex;
-    align-content:flex-end;
-    flex-direction: column;
-    width: 35px;
-    height: 35px;
-    background-color: #33383b;
-    border-radius: 2px;
-    font-size: 25px;
-    color: #ffffff;
-    text-align: center;  
-    position: relative;   
-}
-
-.social_label {
-    line-height: 35px;
-    margin-left: 3px;
+footer .footer-left{  
+    justify-content: center;
+    height: 100%;    
 }
 
 footer .footer-left p {
     color: #ffffff;
     font-size: 14px;
-    margin: 0;
-    justify-content: flex-start;
+    margin: 10px;
+    justify-content: center;
     align-content: center;
 }
 
@@ -54,10 +29,9 @@ p {
     display: block;
     margin-block-start: 10px;
     margin-block-end: 10px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
 }
-
 
 footer p.footer-links {
     height: 100%;
@@ -68,19 +42,70 @@ footer p.footer-links {
     font-weight: normal;    
     color: rgb(255, 255, 255);
     margin: 0 0 10px;
-    margin-right: 10px;
-    padding: 0;
+    margin-right: 10px;        
 }
 
 footer p.footer-links_address{
     color: #8f9296;
 }
 
-/* .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-} */
+/** =============================================================*/
+
+/* @import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+ */
+
+
+footer .footer-right {
+    justify-content: center;
+    height: 100%; 
+}
+
+footer .footer-right .social-icon {
+    color: #fff;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+ul.social-icons {
+    margin: 10px;    
+}
+
+.social-icons li {
+    /* vertical-align: top; */
+    display: block;
+    height: 100px;
+    color: #fff;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding:5px 9px;
+    background-color: #292c2f;
+}
+
+.fa-twitter {
+    padding:5px 9px;
+    background-color: #292c2f;
+}
+
+.fa-instagram {
+    padding:5px 9px;
+    background-color: #292c2f;
+}
+
+.fa-pinterest {
+    padding:5px 9px;
+    background-color: #292c2f;
+}
+.fa-google-plus {
+    padding:5px 9px;
+    background-color: #292c2f;
+}
