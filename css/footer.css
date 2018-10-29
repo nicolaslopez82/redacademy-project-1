@@ -1,41 +1,86 @@
-/* Footer */
-/*===================================================*/
-footer {
-    /* background-color: rgb(44, 43, 43); */
-    background-color: cornflowerblue;
-    color: white;
+footer{
+    display: block;
+    flex: 0 0 auto;
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 150px;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 50px 20px;
+}
+
+footer .footer-limiter {
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: left;
+    align-content:flex-start;
+}
+
+footer .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+footer .footer-right li i {
     display: flex;
-    align-items:flex-end;
-}
-
-.footer_image {
-    background-image: url(../images/wave-bkgd.jpg);                    
-     background-repeat: no-repeat;    
-     background-position: center;
-     background-size: cover, 20%;     
-     height: 100px;
-     height: 700px;
-     position: relative;  
-}
-
-
-.social_links {
     align-content:flex-end;
     flex-direction: column;
-    flex-wrap: wrap;
-    color: blueviolet;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;  
+    position: relative;   
 }
 
-.testing_font_awesome{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+.social_label {
+    line-height: 35px;
+    margin-left: 3px;
+}
+
+footer .footer-left p {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+footer p.footer-links {
     height: 100%;
+    width: 100%;
     align-items: center;
-    background-color: aliceblue;
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    font-weight: normal;    
+    color: rgb(255, 255, 255);
+    margin: 0 0 10px;
+    margin-right: 10px;
+    padding: 0;
 }
 
-#facebook {
-    color: aquamarine;
-    
+footer p.footer-links_address{
+    color: #8f9296;
 }
+
+/* .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
